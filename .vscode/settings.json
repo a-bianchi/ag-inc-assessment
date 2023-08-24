@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        ".idea": true,
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "node_modules": true
+    }
+}

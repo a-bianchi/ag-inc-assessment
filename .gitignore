@@ -1,0 +1,19 @@
+# Dependencies
+node_modules
+
+# Compiled code
+dist
+
+# Cloud
+.serverless
+# serverless parameters
+.test.parameters.json
+
+# Others
+*.DS_STORE
+
+coverage
+
+deploy/.aws-sam/
+
+deploy/samconfig.toml
