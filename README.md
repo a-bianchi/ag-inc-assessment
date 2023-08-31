@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/a-bianchi/ag-inc-assessment">
-    <img src="assets/logo.webp" alt="Logo" width="120" height="100">
+    <img src="assets/logo.png" alt="Logo" width="120" height="100">
   </a>
 
 <h3 align="center">Challenge</h3>
