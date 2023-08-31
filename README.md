@@ -121,22 +121,22 @@ The environment necessary to run the service locally is detailed below.
 
 5. You can test if the service is running using the following command:
    ```sh
-   curl -X POST \
-  http://localhost:3000/execute \
-  -H 'accept: */*' \
-  -H 'Content-Type: application/json' \
-  -d '{
-    "credentials": {
-        "email": "mega.tazuka@mail.ru",
-        "password": ""
-    },
-    "options": {
-        "propertyType": 0,
-        "transactionType": 0,
-        "estateType": 0,
-        "paymentType": 0
-    }
-  }'
+        curl -X POST \
+        http://localhost:3000/execute \
+        -H 'accept: */*' \
+        -H 'Content-Type: application/json' \
+        -d '{
+          "credentials": {
+              "email": "",
+              "password": ""
+          },
+          "options": {
+              "propertyType": 0,
+              "transactionType": 0,
+              "estateType": 0,
+              "paymentType": 0
+          }
+        }'
    ```
   
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -191,7 +191,7 @@ curl -X POST \
   -H 'Content-Type: application/json' \
   -d '{
     "credentials": {
-        "email": "mega.tazuka@mail.ru",
+        "email": "",
         "password": ""
     },
     "options": {
