@@ -1,3 +1,5 @@
 export type ConfigService = {
-  port: number;
+  PORT: number;
+  LOG_LEVEL: string;
+  TIMEOUT_AXIOS?: number;
 };

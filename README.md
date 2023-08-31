@@ -20,6 +20,10 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
+install chromun on m1
+brew install chromium --no-quarantine
+
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
